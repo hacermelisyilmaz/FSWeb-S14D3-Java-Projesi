@@ -16,8 +16,13 @@ public class Car {
     public void startEngine() {
         System.out.println("The car's engine is starting");
     }
+
     public void accelerate() {
         System.out.println("The car is accelerating");
+    }
+
+    public void brake() {
+        System.out.println("The car is braking");
     }
 
     public boolean isEngine() {
