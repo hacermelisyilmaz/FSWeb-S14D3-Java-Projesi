@@ -13,6 +13,10 @@ public class Car {
         wheels = 4;
     }
 
+    public void startEngine() {
+        System.out.println("The car's engine is starting");
+    }
+
     public boolean isEngine() {
         return engine;
     }
