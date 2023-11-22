@@ -14,15 +14,15 @@ public class Car {
     }
 
     public void startEngine() {
-        System.out.println("The car's engine is starting");
+        System.out.println(String.format("The %s's engine is starting", this.getClass().getSimpleName()));
     }
 
     public void accelerate() {
-        System.out.println("The car is accelerating");
+        System.out.println(String.format("The %s is accelerating", this.getClass().getSimpleName()));
     }
 
     public void brake() {
-        System.out.println("The car is braking");
+        System.out.println(String.format("The %s is braking", this.getClass().getSimpleName()));
     }
 
     public boolean isEngine() {
