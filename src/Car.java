@@ -10,4 +10,20 @@ public class Car {
         engine = true;
         wheels = 4;
     }
+
+    public boolean isEngine() {
+        return engine;
+    }
+
+    public int getCylinder() {
+        return cylinder;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWheels() {
+        return wheels;
+    }
 }
